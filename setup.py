@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
-  name = 'FolderTreeGenerator',         # How you named your package folder (MyLib)
-  packages = ['FolderTreeGenerator'],   # Chose the same as "name"
+  name = 'DirectoryTreeGenerator',         # How you named your package folder (MyLib)
+  packages = ['DirectoryTreeGenerator'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Generate folder trees directly from the terminal.',   # Give a short description about your library
+  description = 'Lightweight python script to generate folder trees directly from the terminal.',   # Give a short description about your library
   author = 'GLENDATXN',                   # Type in your name
   author_email = 'glendatxn@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/gtxn/DirectoryTreeGenerator',   # Provide either the link to your github or to your website
