@@ -9,7 +9,7 @@ Easily view folder structure, with parameters to sieve out what you want. Choose
 ```pip install dir-tree-artist```
 
 ### Usage
-```python3 -m dir-tree-artist -f <folder to traverse> -d[optional] <maximum depth> -e[optional] <folders to exclude separated by comma>```
+```python3 -m dir-tree-artist -f FOLDER_TO_TRAVERSE -d[optional] MAX_DEPTH -e[optional] EXCLUDED1,EXCLUDED2...```
 
 ### Example:
 -> my_folder  
