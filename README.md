@@ -1,4 +1,4 @@
-# Dir Tree Artist
+# Dir Tree Artist 🎨 🌲
 
 ### Intro
 ![image](https://user-images.githubusercontent.com/59089164/148357706-40ed3cad-7564-44da-a520-39c8cbd77409.png)
