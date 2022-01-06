@@ -12,8 +12,8 @@ Easily view folder structure, with parameters to sieve out what you want. Choose
 ```python3 -m dir-tree-artist -f <folder to traverse> -d[optional] <maximum depth> -e[optional] <folders to exclude separated by comma>```
 
 #### Example:
--> my_folder
-  ->[+] node_modules
+-> my_folder\n
+  ->[+] node_modules\n
   -> README.md
   ->[+] public
   -> .gitignore
