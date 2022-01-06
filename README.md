@@ -9,10 +9,10 @@ Easily view folder structure, with parameters to sieve out what you want. Choose
 ```pip install dir-tree-artist```
 
 ### Usage
-General use
+General use  
 ```python3 -m dir-tree-artist -f FOLDER_TO_TRAVERSE -d[optional] MAX_DEPTH -e[optional] EXCLUDED1,EXCLUDED2...```
 
-Output to file tree.txt
+Output to file tree.txt  
 ```python3 -m dir-tree-artist -f my_folder > tree.txt```
 
 ### Example:
