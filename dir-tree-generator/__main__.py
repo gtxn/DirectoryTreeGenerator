@@ -14,7 +14,7 @@ fpath = args.folder
 allowedLayers = args.depth
 tree = ''
 
-if not allowedLayers.isdigit():
+if allowedLayers != None and not allowedLayers.isdigit():
     parser.error('Depth must be an integer')
 
 def getExcludedFiles(excluded):
@@ -43,7 +43,10 @@ def traverse_1(fpath, layer, excluded):
             child_path = os.path.normpath(os.path.join(filefullpath, filename))
             
             if child_path not in excluded:
-                tree += '   '*layer + '|' +'\n' + '   '*layer + '-> ' + filename + '\n'
+                if os.path.isfile(child_path):
+                    tree += '   '*layer + '|' +'\n' + '   '*layer + '-> ' + filename + '\n'
+                else:
+                    tree += '   '*layer + '|' +'\n' + '   '*layer + '->[+] ' + filename + '\n'
             
             traverse_1(child_path, layer+1, excluded)
 
