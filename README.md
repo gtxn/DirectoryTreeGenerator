@@ -3,7 +3,7 @@
 ### Ever wanted to see your folders structure quickly?
 ![image](https://user-images.githubusercontent.com/59089164/148357706-40ed3cad-7564-44da-a520-39c8cbd77409.png)
 
-Easily view folder structure, with parameters to sieve out what you want. Choose to exclude files from being viewed (.git, node_modules) and also maximum depth of viewing to prevent a huge loop.
+Easily view folder structure, with parameters to sieve out what you want. Choose to exclude files from being viewed (.git, node_modules) and also specify maximum depth to prevent a huge output.
 
 ### Installation
 ```pip install dir-tree-artist```
