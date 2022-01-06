@@ -13,14 +13,14 @@ Easily view folder structure, with parameters to sieve out what you want. Choose
 
 #### Example:
 -> my_folder  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->[+] node_modules  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> README.md  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->[+] public  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> .gitignore  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> package-lock.json  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> package.json  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->[+] .git  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;->[+] src   
+&nbsp;&nbsp;&nbsp;->[+] node_modules  
+&nbsp;&nbsp;&nbsp;-> README.md  
+&nbsp;&nbsp;&nbsp;->[+] public  
+&nbsp;&nbsp;&nbsp;-> .gitignore  
+&nbsp;&nbsp;&nbsp;-> package-lock.json  
+&nbsp;&nbsp;&nbsp;-> package.json  
+&nbsp;&nbsp;&nbsp;->[+] .git  
+&nbsp;&nbsp;&nbsp;->[+] src   
 
 View children of all folders within my_folder EXCLUDING .gitignore, .git, node_modules
 ```python3 -m dir-tree-artist -f my_folder -d 2 -e .gitignore,.git,node_modules```
