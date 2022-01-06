@@ -12,15 +12,15 @@ Easily view folder structure, with parameters to sieve out what you want. Choose
 ```python3 -m dir-tree-artist -f <folder to traverse> -d[optional] <maximum depth> -e[optional] <folders to exclude separated by comma>```
 
 #### Example:
--> my_folder\n
-  ->[+] node_modules\n
-  -> README.md
-  ->[+] public
-  -> .gitignore
-  -> package-lock.json
-  -> package.json
-  ->[+] .git
-  ->[+] src
+-> my_folder  
+  ->[+] node_modules  
+  -> README.md  
+  ->[+] public  
+  -> .gitignore  
+  -> package-lock.json  
+  -> package.json  
+  ->[+] .git  
+  ->[+] src   
 
 View children of all folders within my_folder EXCLUDING .gitignore, .git, node_modules
 ```python3 -m dir-tree-artist -f my_folder -d 2 -e .gitignore,.git,node_modules```
